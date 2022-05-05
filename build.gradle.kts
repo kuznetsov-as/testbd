@@ -25,12 +25,11 @@ dependencies {
 	implementation("com.googlecode.json-simple:json-simple:1.1.1")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
-	implementation("org.springframework.boot:spring-boot-starter-security")
-	implementation("org.springframework.security:spring-security-config")
-
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	runtimeOnly("org.postgresql:postgresql")
+
+	implementation("org.apache.commons:commons-csv:1.5")
 }
 
 tasks.withType<KotlinCompile> {

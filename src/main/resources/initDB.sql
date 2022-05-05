@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS data
+(
+    data     VARCHAR(200) PRIMARY KEY ,
+    konus  VARCHAR(200) NOT NULL,
+    linza  VARCHAR(200) NOT NULL
+);
